@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
+"""matrix transpose"""
+
 
 def matrix_transpose(matrix):
+    """transpose a matrix"""
     # Get the number of rows and columns in the matrix
     rows = len(matrix)
     columns = len(matrix[0])
